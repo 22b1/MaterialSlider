@@ -25,7 +25,7 @@
 
 ## Example
 Here's a simple example of how to use 'MaterialSlider' in a Windows Forms application:
-```
+```csharp
 using System;
 using System.Windows.Forms;
 
@@ -94,12 +94,12 @@ namespace MaterialSliderExample
 ### Methods
 #### CreateRoundedRectanglePath
 Creates a rounded rectangle path for smooth corners.
-```
+```csharp
 private GraphicsPath CreateRoundedRectanglePath(Rectangle rect, int cornerRadius)
 ```
 #### SetProperValue
 Ensures the value is within the valid range and updates the control.
-```
+```csharp
 private void SetProperValue(decimal value)
 ```
 ### Customization
